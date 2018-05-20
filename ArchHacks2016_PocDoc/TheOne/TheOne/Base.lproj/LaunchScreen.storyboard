@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PocDoc_Doc_in_the_Poc.png" translatesAutoresizingMaskIntoConstraints="NO" id="kTm-3K-mxB">
+                                <rect key="frame" x="73" y="219" width="229" height="229"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1998631656" green="0.6373679042" blue="0.78368753189999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kTm-3K-mxB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7mZ-bi-fmt"/>
+                            <constraint firstItem="kTm-3K-mxB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="57" id="DDi-z9-IGD"/>
+                            <constraint firstItem="kTm-3K-mxB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gV9-Dm-unn"/>
+                            <constraint firstItem="kTm-3K-mxB" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="199" id="mIg-of-i8i"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.4" y="367.46626686656674"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PocDoc_Doc_in_the_Poc.png" width="1024" height="1024"/>
+    </resources>
+    <color key="tintColor" red="0.77537474247463001" green="0.79525351519999998" blue="0.76680338470780662" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
